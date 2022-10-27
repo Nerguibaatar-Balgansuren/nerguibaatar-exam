@@ -1,0 +1,161 @@
+* {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    max-width: 1728px;
+    margin: 0 auto;
+}
+
+/* header starts here */
+
+header {
+    justify-content: space-between;
+    margin: 0 30px 0 30px;
+}
+
+#top-logo {
+    width: 140px;
+    height: 20.83px;
+    align-self: center;
+    margin-left: 30px;
+
+}
+
+.navbar {
+    gap: 30px;
+    flex-wrap: wrap;
+    height: 108px;
+}
+
+.navbar a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#burger-menu {
+    width: 48px;
+    height: 48px;
+    align-self: center;
+    margin-right: 15px;
+}
+
+/* main starts here */
+
+main {
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    align-items: center;
+    text-align: center;
+}
+
+#flip4 a:hover {
+    color: blue;
+}
+
+.l-slider {
+    height: 486px;
+    position: relative;
+}
+
+.heading {
+    font-size: 30px;
+    line-height: 36px;
+    align-items: center;
+    color: #FFFFFF;
+    z-index: 1;
+    top: 34px;
+
+}
+
+.start {
+    justify-content: flex-start;
+}
+
+.end {
+    justify-content: flex-end;
+}
+
+.absolute {
+    position: absolute;
+    max-width: 310px;
+
+
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+#l-slider-left {
+    text-align: start;
+    left: 42px;
+}
+
+#l-slider-right {
+    text-align: end;
+    right: 30px;
+}
+
+.items1 {
+    width: 432px;
+    height: 480px;
+    position: relative;
+    background: #F6F6F7;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.items1 img {
+    height: 432px;
+    width: 432px;
+}
+
+.items1:hover {
+    background: #333399;
+}
+
+.items2 {
+    width: 432px;
+    height: 480px;
+    position: relative;
+    background: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.items2:hover {
+    background: #333399;
+}
+
+.items2 img {
+    height: 432px;
+    width: 432px;
+}
+
+.l-heading {
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+#med-h {
+    color: #000000;
+    text-align: left;
+    margin: 30px;
+}
