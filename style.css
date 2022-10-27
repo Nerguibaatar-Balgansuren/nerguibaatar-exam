@@ -159,3 +159,30 @@ main {
     text-align: left;
     margin: 30px;
 }
+
+.logos {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    color: #999999;
+}
+
+#bot-logo {
+    width: 86px;
+    height: 12.79px;
+}
+
+.l-footer {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #666666;
+}
