@@ -1,0 +1,27 @@
+
+#band_header {
+    font-style: italic;
+    font-weight: bold;
+}
+#combined {
+    background-color: antiquewhite;
+    width: 500px;
+    height: 350px;
+}
+
+
+.band {
+    color: red; 
+}
+.culinary_arts {
+    color:darkgoldenrod;
+}
+.spanish {
+    color:goldenrod;
+}
+.swimming {
+color: green;
+}
+.shop_class {
+color: blue;
+}

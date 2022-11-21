@@ -1,0 +1,91 @@
+
+Та илгээсэн
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homework.1</title>
+        <link rel="stylesheet" href="homework style.css">
+    </head>
+    <body>
+
+        <div class="div">
+            <section>
+                <img src="https://scontent.fuln1-2.fna.fbcdn.net/v/t31.18172-8/21200444_1942284929362572_8416844039338940873_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=56AGXxp7PWwAX_RrArz&_nc_ht=scontent.fuln1-2.fna&oh=00_AT-unWGRIGleumY-K8FZ4rinyuUGF0p98cGoazWty3di7A&oe=63666589" alt="Profile">
+                <h3>Profile</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse beatae consequuntur eaque illum qui ad modi alias sed quis temporibus. Pariatu</p>
+            </section>
+            <section>
+                <h3>Contacts</h3>
+                    <p> <b>Phone:</b>99774645, 89144515</p>
+                    <p><b>E-mail:</b>Orgil87654@gmail.com</p>
+                    <p><b>Hayag:</b>HUD-4 202/16</p>
+            </section>
+            <section>
+                <h3>REFERENCES</h3>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur elit.</li>
+                </ul>
+            </section>
+           
+        </div>
+        <header>
+            <h1>Orgil</h1>
+            <h2>Computer Science Major</h2>
+        </header>
+        <main>
+           
+            <section class="education">
+                <h2>Education</h2>
+                <h3>Pinecode Academy 2022-2023</h3>
+                <article>
+                    <ul>
+                        <li>Computer Science & Coding</li>
+                        <li>GPA:3.9</li>
+                    </ul>
+                </article>
+            </section>
+
+            <section id="employment">
+                <h2>Employment</h2>
+                <article>
+                    <h3>Desing Clock Inc.2020-2022 /</h3>
+                    <h3>Full Stack Developer</h3>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolor quas dolorem.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur. Voluptatibus dolor quas dolorem.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing  Voluptatibus dolor quas dolorem.</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Tech Nom Inc.2017-2020 /</h3>
+                    <h3>Jr.Developer</h3>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolor quas dolorem.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur. Voluptatibus dolor quas dolorem.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing  Voluptatibus dolor quas dolorem.</li>
+                    </ul>
+
+                </article>
+            </section>
+
+            <section class="skillsexpertise">
+                <h2>Skills & Expertise</h2>
+                <article>
+                    <ul>
+                        <li>CSS</li>
+                        <li>HTML</li>
+                        <li>RUBY</li>
+                        <li>JS</li>
+                        <li>PYTHON</li>
+                        <li>C++</li>
+                        <li>DATA ANALYSIS</li>
+                        <li>Networking</li>
+                       </ul>
+                </article>
+            </section>
+           
+
+        </main>
+    </body>
+</html>

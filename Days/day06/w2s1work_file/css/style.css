@@ -1,0 +1,160 @@
+/* Web Fonts ----------------------- */
+@font-face {
+  font-family: 'abolition';
+  src: url('../fonts/abolition-regular-webfont.ttf') format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* @font-face {
+  font-family: 'roboto', sans-serif;
+  src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+*/
+/* Base Styles --------------------- */
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: coral;
+  text-decoration: none;
+}
+
+html {
+  font-size: 1.25em;
+  /* 20px on most screens */
+}
+
+img {
+  width: 100%;
+  /* responsive images */
+}
+
+
+/* Main Styles --------------------- */
+
+h1 {
+  font-family: 'abolition';
+  /* font-size: 64px;
+  line-height: 20px; 
+  letter-spacing: 10px;
+  text-shadow: 10px 10px 10px red, 
+              -10px -10px 10px blue
+  ; 
+  */
+}
+
+h2 {
+  font-family: 'abolition';
+  color: white;
+}
+
+#top {
+  text-align: center;
+  padding: 25vh;
+  background: url(../img/mountains.jpg) center / cover rgb(133, 72, 26);
+  background-blend-mode: overlay;
+
+
+  color: white;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Media Queries ------------------- */
+
+#wildlife {
+  padding: 20% 15%;
+  color: white;
+  box-shadow: inset 0 3px 10px black;
+  border-top: 12px solid rgb(133, 72, 26);
+  border-radius: 10px 10px 0px 0px;
+  background: url(../img/bear.jpg) center / cover rgb(124, 97, 97);
+  margin: auto 0;
+  margin-bottom: 25px;
+  max-width: 1000px;
+  max-height: 800px;
+
+}
+
+section {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 25px 0px 25px 0px;
+  border-bottom: 1px dashed #9599a9;
+}
+
+#wildlife a {
+  color: coral;
+  text-decoration: none;
+}
+
+#wildlife h2 {
+  font-size: 64px;
+}
+
+.column {
+  display: inline-block;
+  width: 47.5%;
+  padding: 30px 0.5% 0.5% 0.5%;
+  margin-right: -4px;
+  margin: 30px 0.5% 0.5% 0.5% auto;
+
+}
+
+.column:first-child {
+  margin-right: calc(4% - 4px);
+  margin-bottom: 0;
+}
+
+.column img {
+  border-radius: 10px;
+  max-width: 500px;
+  max-height: 250px;
+}
+
+.callout {
+  display: block;
+  width: 25%;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  padding: 5px 30px 5px 30px;
+  /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px; */
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  /* background: linear-gradient(180deg, ); */
+  background: linear-gradient(125deg, white, coral, coral);
+  box-shadow: 0 1px 3px black;
+
+}
+
+.callout:hover {
+  display: block;
+  width: 25%;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  padding: 5px 30px 5px 30px;
+  /* padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px; */
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  /* background: linear-gradient(180deg, ); */
+  background: linear-gradient(235deg, white, coral,coral);
+  box-shadow: 0 1px 3px black;
+}
+
+.main-footer {
+  text-align: center;
+  margin: 0 auto;
+}

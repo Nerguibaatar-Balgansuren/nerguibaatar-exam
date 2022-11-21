@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    /* flex-flow: row-reverse wrap; */
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 30px 30px;
+}
+.item {
+    width: 50px;
+}
+
+.item-1 {
+    height: 30px;
+}
+
+.item-2 {
+    height: 50px;
+}
+
+.item-3 {
+    height: 50px;
+}
+
+.item-4 {
+    height: 30px;
+}
+
+.item-5 {
+    height: 20px;
+}
+
+.item-6 {
+    min-height: 20px;
+}

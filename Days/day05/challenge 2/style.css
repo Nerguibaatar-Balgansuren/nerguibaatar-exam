@@ -1,0 +1,39 @@
+img {
+    width: 100%;
+}
+
+.bio {
+    width: 100%;
+    background-color: orange;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header {
+    
+    max-width: 500px;
+    display: inline-block;
+}
+
+section {
+    height: 20vh;
+    width: 50vw;
+}
+
+main {
+    display: inline-block;
+}
+section:nth-child(1) {
+    background-color: red;
+}
+
+/*section:nth-child(2) {
+    background-color: green;
+}
+
+section:nth-child(3) {
+    background-color: blue;
+}
+section:nth-child(4) {
+    background-color: magenta;
+}
